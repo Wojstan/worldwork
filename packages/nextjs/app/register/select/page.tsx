@@ -16,21 +16,21 @@ export default function Register() {
         <Link href="/register/employer">
           <RegisterCard className="bg-primary hover:bg-[#AEE5F5]">
             <div className="flex items-center gap-3 justify-center">
-              <Heading1>I’m a employer</Heading1>
+              <Heading1>I’m Employer</Heading1>
               <ArrowRightIcon className="h-8 w-8" />
             </div>
-            <img className="absolute bottom-0 left-0" src="/register-company.svg" alt="" />
+            <img className="absolute left-1/2 transform -translate-x-1/2 bottom-0" src="/register-company.svg" alt="" />
           </RegisterCard>
         </Link>
         <Link href="/register/employee">
-          <RegisterCard className="bg-accent hover:bg-[#FDFF7D]">
+          <RegisterCard className="bg-secondary hover:bg-[#FDFF7D]">
             <Heading1>
               <div className="flex items-center gap-3 justify-center">
-                <Heading1>I’m a employee</Heading1>
+                <Heading1>I’m Employee</Heading1>
                 <ArrowRightIcon className="h-8 w-8" />
               </div>
             </Heading1>
-            <img className="absolute bottom-0 right-0" src="/register-employee.svg" alt="" />
+            <img className="absolute left-1/2 transform -translate-x-1/2 bottom-0" src="/register-employee.svg" alt="" />
           </RegisterCard>
         </Link>
       </div>
